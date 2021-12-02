@@ -1,0 +1,119 @@
+/*all are refered through the class name  
+USing class Method not by tag method */
+
+/* ----short Hand are Hidden----- */
+
+
+/* Background and text color */
+.bg{
+    border: 2px ridge ;
+    background-color: blueviolet;
+    color: chartreuse;
+    text-shadow: 12px;
+    margin: 0vh;
+    padding: 0vh;
+}
+
+
+/* border */
+.border{
+    border-width: 2px ;
+    border-style: groove;
+    border-color: rgb(38, 238, 65);
+}
+
+
+/* h2{
+    border: 2px groove blue; 
+} */
+
+
+
+/* Outline */
+  .outline{
+    outline-width: 2px ;
+    outline-color: red;
+    outline-style: solid;
+    outline-offset: 2px;
+    
+    border: 2px pink dotted;
+}
+
+/* h1{
+    outline: 3px solid red;
+} */
+
+
+
+
+/* Padding  */
+.padding{
+    border: 2px solid rgb(71, 157, 255);
+
+    padding-left: 3px ;
+    padding-right: 5px ;
+    padding-top: 3px ;
+    padding-bottom: 5px ;
+}
+
+/* .padding{
+inner gap in boarder
+    padding: 3px 5px 3px 5px;
+} */
+
+
+
+/* Margin */
+.margin{
+    border: 2px solid tomato;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 40px;
+margin-right: 40px;
+width: 50%;
+}
+
+/* .margin{
+    outer gap
+    margin: 10px 20px 10px 20px ;
+    -------------------------------
+    margin: auto 10px auto 10px ;
+} */
+
+
+/* Height and Width */
+.hw{
+    border: 2px outset teal;
+    width: 80%;
+    height: 50%;
+}
+
+.overflow{
+    border: 2px black solid;
+    width: 70px;
+    height: 100px;
+    overflow: scroll;
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+
+/* ---------------------- */
+/* box shadow */
+/* box sizing */
+
+
+/* Testing all Properties  */
+.testing{
+    border: 3px rgb(240, 44, 44) ridge;
+    outline: 4px orange inset;
+    background-color: rgb(253, 140, 120);
+    padding: 10px 8px;
+    width: 100%;
+    height: 190px;
+    max-width: 500px;
+    max-height: 200px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 1px  rgb(133, 133, 224),
+    /* -17px -17px 1px tan inset; */
+}

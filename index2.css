@@ -1,0 +1,11 @@
+.bg{
+    border: 3px solid teal;
+    /* width: 50%; */
+    float: right;
+}
+.border{
+    border: 3px solid pink;
+    /* width: 50%; */
+    float: left;
+    margin-left: 5px;
+}
